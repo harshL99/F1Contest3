@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Document</title>
+    <style>
+        
+        .carousel-inner{
+            height: 76vh;
+        }
+        .item > img{
+            width: 100%;
+            height: 76vh !important;
+        }
+        .carousel-indicators li{
+            border: 2px solid;
+            border-radius: 1px !important;
+        }
+        .card{
+            border: 1px solid grey;
+            border-radius: 5px;
+            margin:10px;
+            padding: 20px;
+            
+        }
+        .card > img{
+            width: 200px;
+            height: 200px;
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" href="#">My Website</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+          <h1>BootStrap Example</h1>
+          
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="beach.png" alt="Beach" class="img-responsive">
+      <div class="carousel-caption">
+           <h3>Beaches</h3>
+           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="love.png" alt="Love" class="img-responsive">
+      <div class="carousel-caption">
+           <h3>Love</h3>
+           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="tshirt.png" alt="Tshirt" class="img-responsive">
+      <div class="carousel-caption">
+           <h3>Tshirt</h3>
+           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+      </div>
+
+      <div class="container">
+        <h1>Some Content</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro placeat aspernatur animi hic, corporis iusto laborum repellat ipsum laboriosam. Consequatur asperiores similique rem omnis natus corrupti atque. Sunt veniam voluptates quaerat tempora modi. Numquam assumenda nihil nisi nemo architecto dolorum eius, explicabo ipsa! Enim, ratione quia. Ad porro, quod non harum temporibus quibusdam eos odio aspernatur labore! Ea blanditiis aspernatur nihil reiciendis inventore consequuntur eligendi laborum veritatis, iste, omnis quos animi possimus eaque odio porro quae a accusamus! At, officiis?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime et ad veniam sit autem beatae cumque ipsam libero quae rem aut minima, dolores assumenda iure obcaecati sed placeat porro cupiditate. Eaque impedit distinctio aspernatur eius ex velit est nostrum voluptatibus.
+        </p>
+
+        
+      </div>
+
+      <div class="container">
+        <div class="row">
+
+        <div class="card col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
+            <img class="card-img-top img-responsive" src="eagle.png" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">John Doe</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dignissimos, maxime architecto accusamus obcaecati mollitia enim amet? Fugiat unde, corporis velit illo blanditiis, atque, voluptate voluptatum animi quisquam esse nobis!</p>
+              <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
+          </div>
+
+          <div class="col-lg-1 col-xl-1 col-md-1 col-sm-1"></div>
+
+          <div class="card col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
+            <img class="card-img-top img-responsive" src="eagle.png" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">John Doe</h4>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus similique harum impedit, aspernatur excepturi velit. Ratione, commodi ex. Voluptates eos quos porro distinctio dolorem minima dignissimos quaerat rem voluptatum! Perferendis!</p>
+              <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
+          </div>
+
+          <div class="col-lg-1 col-xl-1 col-md-1 col-sm-1"></div>
+
+          <div class="card col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
+            <img class="card-img-top img-responsive" src="eagle.png" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">John Doe</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, unde.</p>
+              <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
+          </div>
+          </div>
+      </div>
+
+      <div class="container">
+        <h2>Form</h2>
+        <form action="#" method="post">
+          <div class="form-group">
+            <label>Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
+          </div>
+          <div class="form-group">
+            <label>Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
+          </div>
+          <div class="form-group">
+            <label>Address:</label>
+            <textarea class="form-control" rows="5" id="address" placeholder="Enter Address" name="address"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+
+      <div class="container">
+        <h2>Table</h2>            
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Message</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>John</td>
+              <td>john@example.com</td>
+              <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus reprehenderit distinctio laboriosam neque explicabo. Consectetur.</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Patrick</td>
+                <td>patrick12@example.com</td>
+                <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi voluptas rem sunt.</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Gray</td>
+                <td>Gray123@example.com</td>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, itaque.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+</body>
+</html>
